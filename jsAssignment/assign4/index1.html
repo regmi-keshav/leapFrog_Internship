@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sorting Visualization</title>
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1>SORTING VISUALIZER</h1>
+		<div class="vars">
+			<div class="range">
+				<div class="slide"><label for="bars">ِArray</label> : <input id="bars" type="range" name="bars"
+						min="1" max="100" value="50" oninput="setup()" onchange="setup()">
+					<span id="b"> </span></div>
+				<div class="slide"><label for="delay">Speed</label> : <input id="delay" type="range" name="delay"
+						min="0" max="1000" value="25" oninput="setup()" onchange="setup()">
+					<span id="d"></span></div><br/>
+                <p>   A->Ascending D->Descending</p> 
+			</div>
+			<div class="sorts">
+				<input type="button" onclick="SelectionSortAscending()" value="Selection Sort-A">
+                <input type="button" onclick="SelectionSortDescending()" value="Selection Sort-D">
+				<input type="button" onclick="BubbleSortAscending()" value="Bubble Sort-A">
+                <input type="button" onclick="BubbleSortDescending()" value="Bubble Sort-D">
+				<input type="button" onclick="InsertionSortAscending()" value="Insertion Sort-A">
+                <input type="button" onclick="InsertionSortDescending()" value="Insertion Sort-D">
+				<input type="button" onclick="MergeSortAscending()" value="Merge Sort-A">
+                <input type="button" onclick="MergeSortDescending()" value="Merge Sort-D">
+				<input type="button" onclick="QuickSortAscending()" value="Quick Sort-A">
+                <input type="button" onclick="QuickSortDescending()" value="Quick Sort-D">
+				<input type="button" onclick="HeapSortAscending()" value="Heap Sort-A">
+                <input type="button" onclick="HeapSortDescending()" value="Heap Sort-D">
+                <input type="button" onclick="reset()" value="Generate New Array">
+			</div>
+		</div>
+	</div>
+	<div id="container">
+	</div>
+	<script src="App/beep.js"></script>
+	<script src="App/script1.js"></script>
+</body>
+
+</html>

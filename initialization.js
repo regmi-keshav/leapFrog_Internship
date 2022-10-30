@@ -1,0 +1,1 @@
+console.log("Internship session first git initialization");

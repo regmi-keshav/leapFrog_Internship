@@ -1,0 +1,91 @@
+* {
+    color: black;
+    margin: 0px;
+}
+
+body {
+    background-image: url(./img/homeIndex_bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    margin: 0%;
+}
+
+.assignment {
+    padding-bottom: 50px;
+}
+
+h1,
+h2 {
+    text-shadow: 5px 5px 5px #ababab;
+    margin: 0%;
+}
+
+.heading {
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.credentials {
+    margin: 20px;
+}
+
+table {
+    padding-top: 25px;
+    font-size: 18px;
+    margin: auto;
+    text-align: left;
+}
+
+.tableCol-1,
+.tableCol-2,
+.tableCol-3,
+.tableCol-4 {
+    color: whitesmoke;
+    background-color: #2C3E50;
+}
+
+tbody tr:hover {
+    background-color: rgb(233, 202, 202);
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(119, 94, 93);
+    border-radius: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ECF0F1;
+}
+
+tr:nth-child(even) {
+    background-color: #B2BABB;
+}
+
+a:link,
+a:visited {
+    color: #E74C3C;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover,
+a:active {
+    background-color: green;
+    color: white;
+}
